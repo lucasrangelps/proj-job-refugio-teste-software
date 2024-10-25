@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -59,7 +58,6 @@ namespace Job_refugio_bd.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NomeUsuario,Cidade,FormAcad,ResumoQualific,PrincRealiza,ExpProf,ObjProf,CursosComplIdioma,CandidatoId")] Curriculo curriculo)
         {
-
             if (ModelState.IsValid)
             {
                 _context.Add(curriculo);
@@ -68,7 +66,6 @@ namespace Job_refugio_bd.Controllers
             }
             ViewData["CandidatoId"] = new SelectList(_context.Candidatos, "IdCandidato", "Email", curriculo.CandidatoId);
             return View(curriculo);
-            
         }
 
         // GET: Curriculos/Edit/5

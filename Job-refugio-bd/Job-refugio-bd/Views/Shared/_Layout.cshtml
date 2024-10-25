@@ -41,7 +41,7 @@
             <div class="perfil">
                 <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
                 <ul>
-                    <li class="drop"><a id="link_login" href="../login/login.html">Login/Cadastrar</a></li>
+                    <li class="drop"><a id="link_login" asp-area="" asp-controller="OpcaoLogin" asp-action="Index">Login/Cadastrar</a></li>
                 </ul>
             </div>
         </div>
@@ -49,6 +49,8 @@
  
     
         <main >
+       
+
             @RenderBody()
         </main>
     <script src="~/js/scriptCriarVaga.js"></script>

@@ -18,6 +18,33 @@ namespace Job_refugio_bd.Controllers
             _context = context;
         }
 
+        //---------------------------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string senha)
+        {
+            var usu = await _context.Candidatos
+                .FirstOrDefaultAsync(u => u.Email == email && u.Senha == senha);
+
+            if (usu != null)
+            {
+                ModelState.AddModelError("", "Passei aqui");
+                // Aqui você pode configurar o cookie de autenticação ou JWT
+                return RedirectToAction("Index", "Home");
+            }
+
+            ModelState.AddModelError("", "Email ou senha inválidos.");
+            return View();
+        }
+
+        //----------------------------------------------------------------------------------
+
         // GET: Candidatos
         public async Task<IActionResult> Index()
         {

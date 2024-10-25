@@ -33,7 +33,7 @@ namespace Job_refugio_bd.Controllers
 
             if (usu != null)
             {
-                
+                ModelState.AddModelError("", "Passei aqui");
                 // Aqui você pode configurar o cookie de autenticação ou JWT
                 return RedirectToAction("Index", "Home");
             }
