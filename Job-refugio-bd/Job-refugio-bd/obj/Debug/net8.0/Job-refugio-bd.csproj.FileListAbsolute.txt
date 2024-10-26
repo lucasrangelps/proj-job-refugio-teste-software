@@ -1684,3 +1684,4 @@ C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V7\Job-refugio-bd\Job-refugio-bd\
 C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V7\Job-refugio-bd\Job-refugio-bd\obj\Debug\net8.0\Job-refugio-bd.pdb
 C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V7\Job-refugio-bd\Job-refugio-bd\obj\Debug\net8.0\Job-refugio-bd.genruntimeconfig.cache
 C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V7\Job-refugio-bd\Job-refugio-bd\obj\Debug\net8.0\ref\Job-refugio-bd.dll
+C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V7\Job-refugio-bd\Job-refugio-bd\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -64,6 +64,8 @@ namespace Job_refugio_bd.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            
+           
             ViewData["CandidatoId"] = new SelectList(_context.Candidatos, "IdCandidato", "Email", curriculo.CandidatoId);
             return View(curriculo);
         }

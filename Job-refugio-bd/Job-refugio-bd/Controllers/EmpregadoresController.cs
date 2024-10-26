@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -17,6 +19,58 @@ namespace Job_refugio_bd.Controllers
         {
             _context = context;
         }
+
+        //---------------------------------------------------------------------------------
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string senha)
+        {
+            var usu = await _context.Empregadores
+                .FirstOrDefaultAsync(u => u.Email == email && u.Senha == senha);
+
+            if (usu != null)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim (ClaimTypes.Name, usu.NomeFantasia ),
+                    new Claim (ClaimTypes.NameIdentifier, usu.Id.ToString() ),
+                    new Claim (ClaimTypes.Email, usu.Email),
+                    new Claim("OtherProperties", "Example Role"),
+                };
+
+                var usuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                    IsPersistent = true,
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            ModelState.AddModelError("", "Email ou senha inválidos.");
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+
+            return RedirectToAction("Login", "Empregadores");
+        }
+
+        //----------------------------------------------------------------------------------
 
         // GET: Empregadores
         public async Task<IActionResult> Index()
@@ -59,7 +113,7 @@ namespace Job_refugio_bd.Controllers
             {
                 _context.Add(empregador);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Empregadores");//Retorna para pagina de login
             }
             return View(empregador);
         }

@@ -39,10 +39,21 @@
                 </ul>
             </div>
             <div class="perfil">
-                <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
-                <ul>
-                    <li class="drop"><a id="link_login" asp-area="" asp-controller="OpcaoLogin" asp-action="Index">Login/Cadastrar</a></li>
-                </ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
+                    <ul>
+                        <li class="drop"><a id="link_login" asp-area="" asp-controller="Candidatos" asp-action="Logout">Sair</a></li>
+                    </ul>
+                }
+                else
+                {
+                    <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
+                    <ul>
+                        <li class="drop"><a id="link_login" asp-area="" asp-controller="OpcaoLogin" asp-action="Index">Login/Cadastrar</a></li>
+                    </ul>
+                }
+                
             </div>
         </div>
     </header>

@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -34,13 +36,38 @@ namespace Job_refugio_bd.Controllers
 
             if (usu != null)
             {
-                ModelState.AddModelError("", "Passei aqui");
-                // Aqui você pode configurar o cookie de autenticação ou JWT
+                var claims = new List<Claim>
+                {
+                    new Claim (ClaimTypes.Name, usu.NomeUsuario ),
+                    new Claim (ClaimTypes.NameIdentifier, usu.IdCandidato.ToString() ),
+                    new Claim (ClaimTypes.Email, usu.Email),
+                    new Claim("OtherProperties", "Example Role"),
+                };
+
+                var usuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                    IsPersistent = true,
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
                 return RedirectToAction("Index", "Home");
             }
 
             ModelState.AddModelError("", "Email ou senha inválidos.");
             return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+
+            return RedirectToAction("Login", "Candidatos");
         }
 
         //----------------------------------------------------------------------------------
@@ -84,9 +111,11 @@ namespace Job_refugio_bd.Controllers
         {
             if (ModelState.IsValid)
             {
+                //candidato.Senha = BCrypt.Net.BCrypt.HashPassword(candidato.Senha);//Comando para criptografar senha
                 _context.Add(candidato);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Candidatos");//Retorna para pagina de login
+                
             }
             return View(candidato);
         }
@@ -123,6 +152,7 @@ namespace Job_refugio_bd.Controllers
             {
                 try
                 {
+                    //candidato.Senha = BCrypt.Net.BCrypt.HashPassword(candidato.Senha);//Comando para criptografar senha
                     _context.Update(candidato);
                     await _context.SaveChangesAsync();
                 }

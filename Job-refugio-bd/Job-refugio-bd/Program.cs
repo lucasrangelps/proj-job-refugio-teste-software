@@ -1,4 +1,5 @@
 using Job_refugio_bd.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -20,6 +21,21 @@ namespace Job_refugio_bd
             //Configuração de banco de dados
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            //Configuração para autenticação
+            builder.Services.Configure<CookiePolicyOptions>(options =>
+            {
+                //This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.AccessDeniedPath = "/Usuarios/AcessDenied/";
+                    options.LoginPath = "/Usuarios/Login/";
+                });
+
 
             var app = builder.Build();
 
@@ -36,6 +52,7 @@ namespace Job_refugio_bd
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
