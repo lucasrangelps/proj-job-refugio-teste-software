@@ -24,10 +24,10 @@ namespace Job_refugio_bd.Models
         public string CPF { get; set; }
         public string Celular { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o telefone de contato!")]
+        [Required(ErrorMessage = "Obrigatório informar o E-mail!")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o telefone de contato!")]
+        [Required(ErrorMessage = "Obrigatório informar a senha!")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 
@@ -37,7 +37,7 @@ namespace Job_refugio_bd.Models
 
         public Curriculo Curriculo { get; set; }
 
-        public List<Inscrito> Inscritos { get; set; }
+        public ICollection<Inscrito> Inscritos { get; set; }
 
     }
 }

@@ -172,21 +172,21 @@ namespace Job_refugio_bd.Migrations
                     b.Property<int>("CandidatoId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DataInscricao")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("DataInscricao")
+                        .HasColumnType("date");
 
-                    b.Property<string>("StatusInscricao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("StatusInscricao")
+                        .HasColumnType("int");
 
                     b.Property<int>("VagaId")
                         .HasColumnType("int");
 
                     b.HasKey("Idinscricao");
 
-                    b.HasIndex("CandidatoId");
-
                     b.HasIndex("VagaId");
+
+                    b.HasIndex("CandidatoId", "VagaId")
+                        .IsUnique();
 
                     b.ToTable("Inscrito");
                 });
@@ -231,6 +231,9 @@ namespace Job_refugio_bd.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateOnly>("DataPublicacao")
+                        .HasColumnType("date");
 
                     b.Property<string>("DescVaga")
                         .IsRequired()

@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Job_refugio_bd.Controllers
 {
+    [Authorize]
     public class CurriculosController : Controller
     {
         private readonly AppDbContext _context;

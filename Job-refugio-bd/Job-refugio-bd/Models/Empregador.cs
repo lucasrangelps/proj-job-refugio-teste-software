@@ -30,10 +30,10 @@ namespace Job_refugio_bd.Models
         [Required(ErrorMessage = "Obrigatório informar o telefone de contato!")]
         public string Telefone { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o telefone de contato!")]
+        [Required(ErrorMessage = "Obrigatório informar o E-mail!")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o telefone de contato!")]
+        [Required(ErrorMessage = "Obrigatório informar a senha!")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 

@@ -1,0 +1,42 @@
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Inscrito>
+
+@{
+    ViewData["Title"] = "Inscrições";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+<link rel="stylesheet" href="~/css/styleinscricoes.css">
+<main>
+    <div class="content">
+        <!--banner-->
+        <section class="banner"></section>
+        <!--Menu Lateral-->
+        <aside id="menuLateral" class="menuLateral">
+            <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do candidato criando um Id-->
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId">Home</a>
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Inscricoes" asp-route-id="@userId">Minhas Candidaturas</a>
+        </aside>
+        <div class="cards">
+            @foreach (var item in Model)
+            {
+                <div class="caixa">
+                    <h2>@Html.DisplayFor(modelItem => item.Vaga.NomeCargo)</h2>
+                    <div class="barra-externa">
+                        <div class="barra-interna" style="width: 40%;"></div>
+                    </div>
+                    <button class="btnVer" type="button">Ver status</button>
+                </div>
+
+            }
+
+        </div>
+
+
+    </div>
+</main>
+

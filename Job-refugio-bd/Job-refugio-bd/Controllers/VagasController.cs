@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Controllers
 {
+    [Authorize]
     public class VagasController : Controller
     {
         private readonly AppDbContext _context;
@@ -18,12 +21,19 @@ namespace Job_refugio_bd.Controllers
             _context = context;
         }
 
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+        }
+
         // GET: Vagas
         public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Vagas.Include(v => v.Empregador);
             return View(await appDbContext.ToListAsync());
         }
+
+
 
         // GET: Vagas/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -60,12 +70,45 @@ namespace Job_refugio_bd.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Armazena data atual da publicação
+                vaga.DataPublicacao = DateOnly.FromDateTime(DateTime.Now);
+
                 _context.Add(vaga);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
+        }
+
+        [BindProperty]
+        public int Id { get; set; }
+
+        [HttpPost]
+        public IActionResult CreateInscrito(Vaga oinscrito, Candidato ocandidato, int id)
+        {
+
+
+            int userId = GetUserId();
+            int vagaAtual = id;
+
+            if (!(vagaAtual == 0 && userId == 0))
+            {
+                Inscrito inscrito = new Inscrito();
+                inscrito.StatusInscricao = 1;
+                inscrito.CandidatoId = userId;
+                inscrito.VagaId = vagaAtual;
+                inscrito.DataInscricao = DateOnly.FromDateTime(DateTime.Now);
+
+                _context.Add(inscrito);
+                _context.SaveChangesAsync();
+                return RedirectToAction("VagasDisponiveis", "Vagas");
+            }
+
+            return RedirectToAction("ErroPageInscrito", "Vagas");
+
+
+
         }
 
         // GET: Vagas/Edit/5
@@ -158,6 +201,35 @@ namespace Job_refugio_bd.Controllers
         private bool VagaExists(int id)
         {
             return _context.Vagas.Any(e => e.Id == id);
+        }
+        public async Task<IActionResult> Inscritos(int? id) //Grazi
+        {
+            if (id == null)
+                return NotFound();
+
+            var vaga = await _context.Vagas.FindAsync(id); 
+
+            if (vaga == null) 
+                return NotFound();
+
+            var inscritos = await _context.Inscritos 
+                .Include(v => v.Candidato)
+                .Include(v => v.Candidato.Curriculo)
+                .Where(c => c.VagaId == id) 
+                .OrderByDescending(c => c.DataInscricao) 
+                .ToListAsync(); 
+
+            ViewBag.Vaga = vaga; 
+
+            return View(inscritos);
+        }
+
+        // GET: Vagas Dispopniveis
+        [AllowAnonymous]
+        public async Task<IActionResult> VagasDisponiveis()
+        {
+            var appDbContext = _context.Vagas.Include(v => v.Empregador);
+            return View(await appDbContext.ToListAsync());
         }
     }
 }

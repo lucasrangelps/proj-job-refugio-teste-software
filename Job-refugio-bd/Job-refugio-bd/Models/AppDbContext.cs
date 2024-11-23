@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Models
 {
@@ -29,6 +31,35 @@ namespace Job_refugio_bd.Models
                 .HasOne(u => u.Empregador)
                 .WithOne()
                 .HasForeignKey<Usuario>(u => u.IdEmpregador);
+
+            base.OnModelCreating(modelBuilder);
+
+            // Configurar o relacionamento muitos-para-muitos
+            modelBuilder.Entity<Inscrito>()
+                .HasOne(i => i.Candidato)
+                .WithMany(c => c.Inscritos)
+                .HasForeignKey(i => i.CandidatoId);
+
+            modelBuilder.Entity<Inscrito>()
+                .HasOne(i => i.Vaga)
+                .WithMany(v => v.Inscritos)
+                .HasForeignKey(i => i.VagaId);
+
+            // Impor restrição de unicidade para CandidatoId e VagaId
+            modelBuilder.Entity<Inscrito>()
+                .HasIndex(i => new { i.CandidatoId, i.VagaId })
+                .IsUnique();
+
+        }
+
+        internal async Task AddClaimAsync(object user, Claim claim)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task CreateAsync(IdentityUser user, object password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

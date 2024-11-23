@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -26,6 +27,11 @@ namespace Job_refugio_bd.Controllers
         public IActionResult Login()
         {
             return View();
+        }
+
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
         }
 
         [HttpPost]
@@ -71,6 +77,14 @@ namespace Job_refugio_bd.Controllers
         }
 
         //----------------------------------------------------------------------------------
+        //Retorna perfil Candidato
+
+        [Authorize]
+        public IActionResult PerfilCandidato()
+        {
+            return View();
+        }
+
 
         // GET: Candidatos
         public async Task<IActionResult> Index()
@@ -87,6 +101,25 @@ namespace Job_refugio_bd.Controllers
             }
 
             var candidato = await _context.Candidatos
+                .FirstOrDefaultAsync(m => m.IdCandidato == id);
+            if (candidato == null)
+            {
+                return NotFound();
+            }
+
+            return View(candidato);
+        }
+        
+        // GET: Candidatos Detalhes Visualização
+        public async Task<IActionResult> DetailsExibir(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidato = await _context.Candidatos
+                .Include(v => v.Curriculo)
                 .FirstOrDefaultAsync(m => m.IdCandidato == id);
             if (candidato == null)
             {
@@ -167,7 +200,10 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+
+
+                return RedirectToAction("Details", "Candidatos", new { id = GetUserId() });
+            
             }
             return View(candidato);
         }
@@ -209,5 +245,29 @@ namespace Job_refugio_bd.Controllers
         {
             return _context.Candidatos.Any(e => e.IdCandidato == id);
         }
+
+        // Vizualizar vagas inscritas
+
+        public async Task<IActionResult> Inscricoes(int? id)
+
+        {
+            if (id == null)
+                return NotFound();
+
+            var candidato = await _context.Candidatos.FindAsync(id);
+
+            if (candidato == null)
+                return NotFound();
+
+            var inscrito = await _context.Inscritos
+                .Include(v => v.Vaga)
+                .Where(c => c.CandidatoId == id)
+                .ToListAsync();
+
+            ViewBag.Inscritos = inscrito;
+
+            return View(inscrito);
+        }
+
     }
 }

@@ -8,11 +8,14 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Job_refugio_bd.Controllers
 {
+    
     public class EmpregadoresController : Controller
     {
+        
         private readonly AppDbContext _context;
 
         public EmpregadoresController(AppDbContext context)
@@ -68,6 +71,14 @@ namespace Job_refugio_bd.Controllers
             await HttpContext.SignOutAsync();
 
             return RedirectToAction("Login", "Empregadores");
+        }
+
+        //----------------------------------------------------------------------------------
+        //Retorna perfil empregador
+        [Authorize]
+        public IActionResult PerfilEmpregador()
+        {
+            return View();
         }
 
         //----------------------------------------------------------------------------------
@@ -206,5 +217,24 @@ namespace Job_refugio_bd.Controllers
         {
             return _context.Empregadores.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> GerenciarVagas(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var empregador = await _context.Empregadores.FindAsync(id);
+
+            if (empregador == null)
+                return NotFound();
+
+            var vagas = await _context.Vagas
+                .Where(c => c.EmpregadorId == id)
+                .ToListAsync();
+
+
+            return View(vagas);
+        }
+
     }
 }

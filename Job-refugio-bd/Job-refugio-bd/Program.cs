@@ -33,7 +33,7 @@ namespace Job_refugio_bd
                 .AddCookie(options =>
                 {
                     options.AccessDeniedPath = "/Usuarios/AcessDenied/";
-                    options.LoginPath = "/Usuarios/Login/";
+                    options.LoginPath = "/OpcaoLogin/Index/";
                 });
 
 

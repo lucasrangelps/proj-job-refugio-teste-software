@@ -4,10 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<h1>Gerenciar Empregadores</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-success" asp-controller="Empregadores" asp-action="Create">Criar novo</a>
 </p>
 <table class="table">
     <thead>
