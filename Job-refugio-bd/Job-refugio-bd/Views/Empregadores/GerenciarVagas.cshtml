@@ -1,14 +1,18 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Vaga>
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Vaga>
 
 @{
     ViewData["Title"] = "GerenciarVagas";
 }
 
-<h1>Gerenciar Vagas</h1>
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
 
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-<div style="padding: 4% 4% 0 4%">
-</div>
+<div style="padding: 4% 2% 0 4%">
+<h1>Gerenciar Vagas</h1>
+
 <div class="vagas_criadas">
     <table class="table">
         <thead>
@@ -40,13 +44,17 @@
                     </td>
                     <td>
                         <a asp-controller="Vagas" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> |
-                        <a asp-controller="Vagas" asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Detalhes</a> |
                         <a asp-controller="Vagas" asp-action="Inscritos" asp-route-id="@item.Id" class="btn btn-secondary">Inscritos</a> |
                         <a asp-controller="Vagas" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
 
                     </td>
+                    
                 </tr>
+                
             }
         </tbody>
     </table>
+    
+</div>
+    <a style="margin-right: 10%" asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>
 </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rg/pdSFdP4k=",
+  "dgSpecHash": "SA11ySW4w80=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V22\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

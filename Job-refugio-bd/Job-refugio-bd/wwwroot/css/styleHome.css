@@ -814,7 +814,7 @@ header {
         flex-shrink: 0;
     }
 
-button > .prev-btn {
+.prev-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -829,7 +829,7 @@ button > .prev-btn {
 }
 
 
-button > .next-btn {
+.next-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

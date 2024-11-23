@@ -158,7 +158,7 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
