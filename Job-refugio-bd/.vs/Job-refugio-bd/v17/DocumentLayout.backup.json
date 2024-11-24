@@ -3,6 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Vaga.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\vagas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\vagas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\candidatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Curriculo.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\curriculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\curriculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\controllers\\curriculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\curriculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\controllers\\empregadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\empregadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,13 +67,6 @@
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\detailsexibir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Vaga.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styledetailsexibir.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styledetailsexibir.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -58,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\vagas\\inscritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\vagas\\inscritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -96,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\js\\scriptvagasdisponiveis.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\views\\candidatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styledescvaga.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styledescvaga.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\stylehome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -136,9 +151,6 @@
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\stylecadastrocandidato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Curriculo.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\lucas\\onedrive\\documentos\\bkp-projeto\\v24 func status\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styleeditardadoscandidato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styleeditardadoscandidato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -154,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 41,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,26 +182,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Candidato [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Candidato.sql",
-              "ToolTip": "dbo.Candidato [Dados]",
+              "DocumentIndex": 1,
+              "Title": "dbo.Vaga [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Vaga.sql",
+              "ToolTip": "dbo.Vaga [Dados]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-24T03:02:13.711Z",
+              "WhenOpened": "2024-11-24T03:59:04.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Delete.cshtml",
+              "RelativeToolTip": "Job-refugio-bd\\Views\\Vagas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:49:48.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.Curriculo [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Curriculo.sql",
+              "ToolTip": "dbo.Curriculo [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T03:37:39.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Curriculos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Curriculos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Curriculos\\Edit.cshtml",
+              "RelativeToolTip": "Job-refugio-bd\\Views\\Curriculos\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:33:17.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "dbo.Vaga.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Vaga.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Vaga.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-24T02:42:08.996Z"
+              "Title": "CurriculosController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\CurriculosController.cs",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\CurriculosController.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\CurriculosController.cs",
+              "RelativeToolTip": "Job-refugio-bd\\Controllers\\CurriculosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:29:48.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "dbo.Candidato.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Candidato.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Candidato.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-24T03:02:13.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "styleDetailsExibir.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleDetailsExibir.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleDetailsExibir.css",
@@ -201,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "DetailsExibir.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\DetailsExibir.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\DetailsExibir.cshtml",
@@ -209,12 +270,11 @@
               "RelativeToolTip": "Job-refugio-bd\\Views\\Candidatos\\DetailsExibir.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T04:00:39.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T04:00:39.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Inscritos.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
@@ -226,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "scriptGerenciarVagas.js",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\scriptGerenciarVagas.js",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\js\\scriptGerenciarVagas.js",
@@ -238,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "GerenciarVagas.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Empregadores\\GerenciarVagas.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Empregadores\\GerenciarVagas.cshtml",
@@ -250,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Edit.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Edit.cshtml",
@@ -262,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "dbo.Empregador.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Empregador.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Empregador.sql",
@@ -271,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Details.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Details.cshtml",
@@ -279,12 +339,11 @@
               "RelativeToolTip": "Job-refugio-bd\\Views\\Vagas\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T05:26:23.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T05:26:23.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "styleDescVaga.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleDescVaga.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleDescVaga.css",
@@ -296,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\script.js",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\js\\script.js",
@@ -308,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Home\\Index.cshtml",
@@ -320,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Shared\\_Layout.cshtml",
@@ -332,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Empregadores\\Login.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Empregadores\\Login.cshtml",
@@ -344,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "styleHome.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleHome.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleHome.css",
@@ -356,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Empregadores\\Details.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Empregadores\\Details.cshtml",
@@ -368,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\style.css",
@@ -380,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "styleVagasDisponiveis.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleVagasDisponiveis.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleVagasDisponiveis.css",
@@ -392,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "VagasDisponiveis.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\VagasDisponiveis.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\VagasDisponiveis.cshtml",
@@ -404,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "scriptVagasDisponiveis.js",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\scriptVagasDisponiveis.js",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\js\\scriptVagasDisponiveis.js",
@@ -416,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Empregadores\\Create.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Empregadores\\Create.cshtml",
@@ -428,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Create.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Create.cshtml",
@@ -440,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Empregadores\\Edit.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Empregadores\\Edit.cshtml",
@@ -448,34 +507,24 @@
               "RelativeToolTip": "Job-refugio-bd\\Views\\Empregadores\\Edit.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T05:31:24.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:31:24.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "EmpregadoresController.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\EmpregadoresController.cs",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\EmpregadoresController.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\EmpregadoresController.cs",
               "RelativeToolTip": "Job-refugio-bd\\Controllers\\EmpregadoresController.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAADwv7IAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T04:39:18.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "dbo.Curriculo.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Curriculo.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Curriculo.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-22T03:56:06.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Index.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Index.cshtml",
@@ -487,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "styleEditarDadosCandidato.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleEditarDadosCandidato.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleEditarDadosCandidato.css",
@@ -499,19 +548,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Edit.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Edit.cshtml",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Edit.cshtml",
               "RelativeToolTip": "Job-refugio-bd\\Views\\Candidatos\\Edit.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T02:33:13.184Z"
+              "WhenOpened": "2024-11-22T02:33:13.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "styleCadastroCandidato.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCadastroCandidato.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleCadastroCandidato.css",
@@ -523,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "styleLogin.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleLogin.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleLogin.css",
@@ -535,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Details.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Details.cshtml",
@@ -543,24 +593,24 @@
               "RelativeToolTip": "Job-refugio-bd\\Views\\Candidatos\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:58:59.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T01:58:59.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 5,
               "Title": "styleinscricoes.css",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
               "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
               "RelativeToolTip": "Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAswF8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-22T01:36:20.608Z"
+              "WhenOpened": "2024-11-22T01:36:20.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "Inscricoes.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
@@ -568,11 +618,12 @@
               "RelativeToolTip": "Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:33:24.108Z"
+              "WhenOpened": "2024-11-22T01:33:24.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
@@ -584,19 +635,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "VagasController.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\VagasController.cs",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\VagasController.cs",
               "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\VagasController.cs",
               "RelativeToolTip": "Job-refugio-bd\\Controllers\\VagasController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwE0AAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAA7wLkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:47:20.181Z"
+              "WhenOpened": "2024-11-21T23:47:20.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CandidatosController.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V24 func status\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\CandidatosController.cs",
               "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\CandidatosController.cs",
@@ -604,8 +656,7 @@
               "RelativeToolTip": "Job-refugio-bd\\Controllers\\CandidatosController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:32:42.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T01:32:42.592Z"
             }
           ]
         }

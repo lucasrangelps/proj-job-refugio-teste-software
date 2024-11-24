@@ -195,7 +195,7 @@ namespace Job_refugio_bd.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
         }
 
         private bool VagaExists(int id)
