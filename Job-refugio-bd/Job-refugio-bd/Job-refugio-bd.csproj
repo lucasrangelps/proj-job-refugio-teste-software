@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Content Remove="Views\_OpcaoLogin.cshtml" />
+    <Content Remove="wwwroot\img\banner.png" />
   </ItemGroup>
 
   <ItemGroup>

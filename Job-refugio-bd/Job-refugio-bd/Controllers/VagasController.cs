@@ -75,7 +75,7 @@ namespace Job_refugio_bd.Controllers
 
                 _context.Add(vaga);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
